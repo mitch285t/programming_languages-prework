@@ -6,4 +6,8 @@ def reformat_languages(languages)
         new_hash[lang] = { 
           :type => lang_info[:type]
           :style => [:style]
+}
+
+
+
 end
