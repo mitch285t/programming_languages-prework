@@ -7,7 +7,7 @@ def reformat_languages(languages)
           :type => lang_info[:type]
           :style => [:style]
 }
-    else new_hash[lang][:style].push
+    else new_hash[lang][:style].push (style)
 
 
 end
