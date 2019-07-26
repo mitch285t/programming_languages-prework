@@ -3,5 +3,5 @@ def reformat_languages(languages)
   languages.each do |style, style_values|
     style_values.each do |lang, lang_info|
       if !new_hash.include?(lang)
-        
+        new_hash
 end
