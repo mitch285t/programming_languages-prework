@@ -5,4 +5,5 @@ def reformat_languages(languages)
       if !new_hash.include?(lang)
         new_hash[lang] = { 
           :type => lang_info[:type]
+          :style => lang_info[:style]
 end
